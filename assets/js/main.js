@@ -205,3 +205,14 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
+
+function setWhatsAppLink(event) {
+  event.preventDefault(); // Prevent the default anchor behavior
+  const phoneNumber = '+971505564008'; // Set your phone number here
+  const message = 'Hello There'; // Set your message here
+  const encodedMessage = encodeURIComponent(message);
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+  window.open(whatsappUrl, '_blank'); // Open the WhatsApp link in a new tab
+}
+
+document.querySelector('.whatsapp-icon').addEventListener('click', setWhatsAppLink);
