@@ -283,9 +283,8 @@ section {
 .logod img{
   width: 100%;
   /* height: 100%; */
-  aspect-ratio: 1/3;
-  object-fit: cover;
-  
+  aspect-ratio: 16/9;
+  object-fit: contain;
 }
 
 /*--------------------------------------------------------------
@@ -463,6 +462,7 @@ section {
     transition: 0.3s;
     z-index: 9998;
   }
+
 
   .navbar a,
   .navbar a:focus {
