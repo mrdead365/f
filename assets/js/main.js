@@ -207,12 +207,12 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function setWhatsAppLink(event) {
-  event.preventDefault(); // Prevent the default anchor behavior
-  const phoneNumber = '+971505564008'; // Set your phone number here
-  const message = 'Hello There'; // Set your message here
+  event.preventDefault(); 
+  const phoneNumber = '+923218343276'; 
+  const message = 'Hello There'; 
   const encodedMessage = encodeURIComponent(message);
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
-  window.open(whatsappUrl, '_blank'); // Open the WhatsApp link in a new tab
+  window.open(whatsappUrl, '_blank'); 
 }
 
 document.querySelector('.whatsapp-icon').addEventListener('click', setWhatsAppLink);
