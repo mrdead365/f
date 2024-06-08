@@ -2811,3 +2811,61 @@ section {
   object-fit: cover;
   object-position: 50% 50%;
 }
+
+
+
+.fix_img{
+  overflow-x: hidden;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  
+}
+
+.background-section {
+  position: relative;
+  height: 50vh;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#section1 {
+  background-image: url('../img/newimg/mc1.JPG');
+ 
+}
+
+#section2 {
+  background-image: url('../img/newimg/banner4.JPG');
+}
+
+#section3 {
+  background-image: url('../img/newimg/hilux1.webp');
+}
+
+#section4 {
+  background-image: url('../img/newimg/exc1.JPG');
+}
+
+#section5 {
+  background-image: url('../img/newimg/workingbaner.jpeg');
+}
+
+.content1 {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.fix_img h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+}
+
+
