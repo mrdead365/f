@@ -2814,11 +2814,10 @@ section {
 
 
 
-.fix_img{
+.fix_img {
   overflow-x: hidden;
   height: 100%;
   font-family: Arial, sans-serif;
-  
 }
 
 .background-section {
@@ -2828,11 +2827,12 @@ section {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  -webkit-background-attachment: fixed; /* Safari 5.1-6 */
+  background-attachment: fixed;
 }
 
 #section1 {
   background-image: url('../img/newimg/cranenew.jpg');
- 
 }
 
 #section2 {
@@ -2854,9 +2854,13 @@ section {
 .content1 {
   position: relative;
   height: 100%;
+  display: -webkit-flex; /* Safari 6.1+ */
   display: flex;
+  -webkit-flex-direction: column; /* Safari 6.1+ */
   flex-direction: column;
+  -webkit-justify-content: center; /* Safari 6.1+ */
   justify-content: center;
+  -webkit-align-items: center; /* Safari 6.1+ */
   align-items: center;
   color: white;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
