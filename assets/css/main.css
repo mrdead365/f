@@ -2819,6 +2819,7 @@ section {
   height: 100vh; /* Changed to vh for better compatibility */
   font-family: Arial, sans-serif;
 }
+.fix_img::-webkit-scrollbar { width: 0 !important }
 
 .background-section {
   position: relative;
