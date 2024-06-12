@@ -1869,12 +1869,12 @@ section {
 .hero {
   overflow-x: hidden;
   padding: 0;
-  height: 100vh;
+  height: 100vh !important;
 }
 
 .hero .carousel {
   width: 100%;
-  min-height: 100vh;
+  min-height: 100%;
   padding: 80px 0;
   margin: 0;
   position: relative;
@@ -1911,10 +1911,10 @@ section {
   }
   .hero {
 
-    height: 50vh;
+    height: 50vh !important;
   }
   .hero .carousel-item {
-    margin-top: 150px;
+    margin-top: 0px;
     background-size: 100%;
     background-position: top;
   
