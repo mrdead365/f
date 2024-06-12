@@ -2824,32 +2824,96 @@ section {
 .background-section {
   position: relative;
   width: 100%;
-  height: 50vh;
+  height: 100vh;
   background-attachment: fixed;
-  background-size: 100%; /* Changed to cover for better compatibility */
-  background-repeat: no-repeat;
-  background-position: center;
-  -webkit-background-size: cover; /* Added vendor prefix for Safari */
+  background-color: transparent;
 }
 
-#section1 {
-  background-image: url('../img/newimg/cranenew.jpg');
+#section1, #section2, #section3, #section4 , #section5 {
+  position: relative;
+  
+}
+  .fixbg{
+    background-image: url('../img/newimg/cranenew.jpg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-size: 100%; /* Changed to cover for better compatibility */
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover; /* Added vendor prefix for Safari */
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
-#section2 {
+.fixbg2 {
   background-image: url('../img/newimg/banner4.JPG');
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-size: 100%; /* Changed to cover for better compatibility */
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover; /* Added vendor prefix for Safari */
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
-#section3 {
+.fixbg3 {
   background-image: url('../img/newimg/hilux1.webp');
+  /* background-image: url('../img/newimg/banner4.JPG'); */
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-size: 100%; /* Changed to cover for better compatibility */
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover; /* Added vendor prefix for Safari */
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
-#section4 {
+.fixbg4 {
   background-image: url('../img/newimg/exc1.JPG');
+  /* background-image: url('../img/newimg/banner4.JPG'); */
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-size: 100%; /* Changed to cover for better compatibility */
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover; /* Added vendor prefix for Safari */
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
-#section5 {
+.fixbg5 {
   background-image: url('../img/newimg/workingbaner.jpeg');
+  /* background-image: url('../img/newimg/banner4.JPG'); */
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-size: 100%; /* Changed to cover for better compatibility */
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover; /* Added vendor prefix for Safari */
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .content1 {
@@ -2868,6 +2932,7 @@ section {
   text-align: center;
   color: #fff;
 }
+
 
 
 .vidban .slider {
