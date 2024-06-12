@@ -219,6 +219,7 @@ document.querySelector('.whatsapp-icon').addEventListener('click', setWhatsAppLi
 
 
 
+
 // let currentSlide = 0;
 // const slides = document.querySelectorAll('.slide');
 
