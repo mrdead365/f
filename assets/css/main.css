@@ -1,6 +1,4 @@
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
 /* Fonts */
 :root {
@@ -49,6 +47,9 @@ h6 {
   font-family: var(--font-primary);
 }
 
+p{
+  text-align: justify;
+}
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
@@ -677,6 +678,11 @@ section {
 
 .get-started .php-email-form button[type=submit]:hover {
   background: rgba(254, 185, 0, 0.8);
+}
+
+.php-email-form input::placeholder , .php-email-form textarea::placeholder{
+  
+  font-family: fantasy;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1883,7 +1889,7 @@ section {
 .hero .carousel-item {
   position: absolute;
   inset: 0;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -1893,7 +1899,7 @@ section {
 
 .hero .carousel-item::before {
   content: "";
-  /* background-color: rgba(0, 0, 0, 0.7); */
+  background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
   inset: 0;
 
@@ -1911,12 +1917,13 @@ section {
   }
   .hero {
 
-    height: 50vh !important;
+    height: 60vh !important;
   }
   .hero .carousel-item {
+    width: 100%;
     margin-top: 0px;
     background-size: 100%;
-    background-position: top;
+    /* background-position: center; */
   
   }
 }
@@ -2817,3 +2824,17 @@ section {
 
 
 
+.wow{
+  font-family: "Lilita One", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 40px;
+  color: #000;
+  
+}
+.jarallax{
+  height: 30vh;
+}
+.jarallax img{
+  opacity: 0.8;
+}
