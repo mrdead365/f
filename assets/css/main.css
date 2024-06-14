@@ -1281,7 +1281,7 @@ section {
 }
 
 .about .about-img {
-  min-height: 600px;
+  min-height: 400px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -1292,8 +1292,11 @@ section {
     position: absolute;
     top: 0;
     right: 0;
+    
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Stats Counter Section
