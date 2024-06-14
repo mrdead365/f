@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function setWhatsAppLink(event) {
   event.preventDefault(); 
-  const phoneNumber = '+923218343276'; 
+  const phoneNumber = '+97150 5564008'; 
   const message = 'Hello There'; 
   const encodedMessage = encodeURIComponent(message);
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
