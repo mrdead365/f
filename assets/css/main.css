@@ -2608,7 +2608,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   color: #fff;
-  background: url("../img/footer-bg.jpg") top center no-repeat;
+  background: url("../img/newimg/np2.JPG") top center no-repeat;
   background-size: cover;
   font-size: 14px;
   padding: 80px 0 60px 0;
@@ -2827,14 +2827,14 @@ section {
 .wow{
   font-family: "Lilita One", sans-serif;
   font-style: italic;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 40px;
-  color: #000;
+  color: #fff;
   
 }
 .jarallax{
-  height: 30vh;
+  height: 50vh;
 }
-.jarallax img{
+/* .jarallax img{
   opacity: 0.8;
-}
+} */
