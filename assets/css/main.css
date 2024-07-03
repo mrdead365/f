@@ -1948,6 +1948,14 @@ section {
     /* background-position: center; */
   
   }
+
+  .hero .carousel-item::before {
+   
+   
+    font-size: 30px;
+   
+  
+  }
 }
 
 .hero .info h2 {
