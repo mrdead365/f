@@ -1224,7 +1224,9 @@ section {
 
 @media (min-width: 991px) {
   .about h2 {
-    max-width: 65%;
+    
+    text-align: center;
+    max-width: 100%;
     margin: 0 0 80px 0;
   }
 }
@@ -1293,19 +1295,22 @@ section {
 }
 
 .about .about-img {
-  min-height: 400px;
+  min-height: 500px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 
+
+
 @media (min-width: 992px) {
   .about .about-img {
     position: absolute;
-    top: 0;
+    top: 0px;
     right: 0;
     
   }
+
 }
 
 
@@ -1913,7 +1918,7 @@ section {
 }
 
 .hero .carousel-item::before {
-  content: "Services We Provide";
+  content: "";
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   display: flex;
@@ -2857,9 +2862,11 @@ section {
 .wow{
   font-family: "Lilita One", sans-serif;
   font-style: italic;
+  transform: translateY(100px);
   font-weight: bold;
   font-size: 60px;
-  color: #f8a349;
+  color: #fff;
+ 
   /* color: #9fa6aa; */
   
 }
